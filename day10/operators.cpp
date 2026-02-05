@@ -40,6 +40,7 @@ class Number
 
     private:
         int number;
+        // Something new
 };
 
 ostream& operator<<(ostream& out, const Number& num)
