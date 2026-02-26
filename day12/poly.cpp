@@ -182,6 +182,7 @@ int main()
     {
         if (garage[i] != NULL)
         {
+            cout << "Garage[" << i << "] is a " << garage[i] << endl;
             cout << "Garage[" << i << "] is a " << garage[i]->getName() << endl;
             garage[i]->move();
         }
