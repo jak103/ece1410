@@ -3,6 +3,15 @@
 
 using namespace std;
 
+class Stuff
+{
+    public:
+        ~Stuff()
+        {
+            cout << "stuff dtor" << endl;
+        }
+
+};
 
 int main()
 {
@@ -24,6 +33,14 @@ int main()
         // Small! ss.str()
     }
 
+
+    {
+        int here = 100;
+        Stuff s;
+    }
+    
+    cout << "after anonymouse scope" << endl;
+    // cout << here << endl;
 
     return 0;
 }

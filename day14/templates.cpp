@@ -16,7 +16,7 @@ class Stuff
         template<typename A>
         void templateizedFunction(A junk)
         {
-
+            cout << junk << endl;
         }
 
     private:
